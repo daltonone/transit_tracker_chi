@@ -47,3 +47,5 @@ for stop in trains:
     	time.append(div.text.strip())
     for i, j in zip(train, time):
     	print i+" - "+j
+
+print location
